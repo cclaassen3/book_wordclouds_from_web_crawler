@@ -1,0 +1,11 @@
+Author: Carina Claassen
+
+This project is a web crawler implemented in Python using the Scrapy framework to crawl data about books on books.toscrape.com. It extracts the titles, descriptions, and categories/genres of books and stores them such that they can be indexed by the book category.
+
+To run the web crawler, run the command 'scrapy crawl book' from the current directory.
+
+This will store the extracted data in the data/ directory in text files corresponding to category.txt, where category refers to the book category/genre.
+
+On top of this, I have implemented functionality to generate word clouds for each category based on the frequency of words in the titles and descriptions of the books belonging to that category.
+
+To generate a word cloud, run the command 'python wordcloud_generator.py' to open a GUI that will list all the scraped book categories. You can then select a category and press the 'Generate word cloud!' button and the script will close the GUI and display the word cloud image. With the default setting, it will also save the word cloud image to the wordclouds/ directory.
