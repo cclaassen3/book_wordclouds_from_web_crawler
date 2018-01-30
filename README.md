@@ -12,4 +12,6 @@ To make use of the extracted data, I have implemented functionality to generate 
 
     ~:book_wordclouds_from_webcrawler user$ python wordcloud_generator.py
 
-This will open a GUI that will list all the scraped book categories. You can then select a category and press the 'generate word cloud!' button and the script will close the GUI and display the word cloud image. With the default setting, it will also save the word cloud image to the wordclouds/ directory.
+This will open a GUI that will list all the scraped book categories. You can then select a category and press the 'generate word cloud!' button and the script will close the GUI and display the word cloud image. With the default setting, it will also save the word cloud image to the wordclouds/ directory. Here is an example word cloud for the "Travel" category:
+
+![alt text](https://github.com/cclaassen3/book_wordclouds_from_web_crawler/blob/master/wordclouds/Travel.jpg)
